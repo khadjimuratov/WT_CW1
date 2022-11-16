@@ -1,0 +1,61 @@
+body {
+  background-color: #282930;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+}
+
+.img {
+  position: relative;
+  right: 0;
+}
+.title-container h1 {
+  font-size: 70px;
+}
+.title-container {
+  color: white;
+}
+.title-container p {
+  margin-right: 3px;
+}
+
+.services {
+  background-color: #222328;
+}
+.services .card {
+  background-color: #33343a;
+}
+.services .card button {
+  visibility: hidden;
+}
+.services .card:hover {
+  background-color: #1d1d22;
+}
+.services .card:hover > button {
+  visibility: visible;
+}
+section {
+  overflow: hidden;
+}
+.slider {
+  overflow: hidden;
+  width: 75%;
+}
+.slide {
+  margin: 0 10px;
+  position: relative;
+  left: 0;
+  transition: 0.5s;
+}
+#left,
+#right {
+  padding: 14px 36px;
+  font-size: 3rem;
+}
+.comment {
+  width: 75%;
+  border-radius: 40px;
+  border: 1px solid white;
+}
