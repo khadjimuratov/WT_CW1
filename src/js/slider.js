@@ -7,26 +7,26 @@ let l = 0;
 let perMove = 18;
 let maxMove = 19;
 
-let tablet_view = window.matchMedia("(min-width: 500px)");
-let mob_view = window.matchMedia("(max-width: 500px)");
+let tabletView = window.matchMedia("(min-width: 500px)");
+let mobView = window.matchMedia("(max-width: 500px)");
 
-if (mob_view.matches) {
+if (mobView.matches) {
   perMove = 19.7;
   maxMove = 70;
 }
-if (tablet_view.matches) {
+if (tabletView.matches) {
   perMove = 21.5;
   maxMove = 61;
 }
 
-let right_mover = () => {
+let rightMover = () => {
   l = l - perMove;
 
   for (const i of product) {
     i.style.left = `${l}rem`;
   }
 };
-let left_mover = () => {
+let leftMover = () => {
   l = l + perMove;
 
   for (const i of product) {
@@ -36,11 +36,11 @@ let left_mover = () => {
 
 rightArr.onclick = () => {
   if (l > -maxMove) {
-    right_mover();
+    rightMover();
   }
 };
 leftArr.onclick = () => {
   if (l < maxMove) {
-    left_mover();
+    leftMover();
   }
 };
