@@ -47,6 +47,13 @@ contains work done by this company. It is a responsive image grid
 
 #
 
-### please dovload images folder from public folder in guthub and paste to corresponding folder
+### please dovload images folder from public folder in github and paste to corresponding folder
 
+here is link for figma model
 
+https://www.figma.com/file/YDLOJwziZuN9IpVBQ7d6zS/Noemi
+
+# Hosted Link
+https://khadjimuratov.github.io/WT_CW1/
+# Github Source code
+https://github.com/khadjimuratov/WT_CW1
