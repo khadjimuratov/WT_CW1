@@ -1,0 +1,11 @@
+.img-cnt {
+  max-height: 674.76px;
+}
+img {
+  filter: saturate(0%);
+  transition: all 0.5s ease-in-out;
+}
+
+img:hover {
+  filter: saturate(100%);
+}

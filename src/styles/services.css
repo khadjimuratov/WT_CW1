@@ -1,0 +1,19 @@
+table {
+  font-family: "Jost", sans-serif;
+}
+thead {
+  padding: 1rem;
+}
+th {
+  font-size: 1.5rem;
+  background-color: #f4ad7b;
+  padding: 2rem;
+}
+tbody tr:nth-child(even) {
+  background-color: moccasin;
+}
+tbody tr td {
+  font-size: 1.3rem;
+  font-weight: 100;
+  padding: 2rem;
+}
